@@ -104,10 +104,38 @@ a{
         font-size: 13px;
         border-radius: 3px;
     }
+    .elemento{
+        border: 3px solid white;
+        height: 100px;
+        width: 100px;
+    }
+    .numero-atomico{
+        font-size: 12px;
+    }
+    .simbolo{
+        font-size: 45px;
+    }
+    .nome{
+        font-size: 10px;
+    }
 }
 @media(max-width: 360px){
     #conteudo{
         width: 100%;
         margin: 0px;
+    }
+    .elemento{
+        border: 2px solid white;
+        height: 70px;
+        width: 70px;
+    }
+    .numero-atomico{
+        font-size: 10px;
+    }
+    .simbolo{
+        font-size: 30px;
+    }
+    .nome{
+        font-size: 7px;
     }
 }
