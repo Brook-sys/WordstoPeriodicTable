@@ -1,4 +1,5 @@
 function transform(){
+    var elementos
     var textobruto = document.getElementById("btntransform").value;
     var url = "Json-Periodic-Table.json";
     var request = new XMLHttpRequest();
@@ -6,7 +7,7 @@ function transform(){
     request.responseType = 'json';
     request.send();
     request.onload = function() {
-        var elementos = request.response;
+        elementos = request.response;
     }
-    console.log(elementos[0])
+    console.log(elementos)
 }
