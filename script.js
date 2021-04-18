@@ -104,7 +104,7 @@ function transform(){
 function proc(obj, texto){
     var pego = false;
     for(var txt in obj){
-        if(obj[txt].symbol == texto){
+        if(obj[txt].symbol.toUpperCase == texto){
             return obj[txt];
         }
         if (obj[txt] == obj[obj.length - 1]){
