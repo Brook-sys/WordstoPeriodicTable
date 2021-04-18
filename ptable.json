@@ -594,6 +594,61 @@
       "name": "Ununennium",
       "number": 119,
       "symbol": "Uue"
+    },
+    {
+      "name": "Alpha PArticle",
+      "number": " ",
+      "symbol": "A"
+    },
+    {
+      "name": "Electron",
+      "number": "-1",
+      "symbol": "e"
+    },
+    {
+      "name": "Gluon",
+      "number": "0",
+      "symbol": "g"
+    },
+    {
+      "name": "Joule",
+      "number": " ",
+      "symbol": "J"
+    },
+    {
+      "name": "Lepton",
+      "number": " ",
+      "symbol": "l"
+    },
+    {
+      "name": "Mass",
+      "number": " ",
+      "symbol": "m"
+    },
+    {
+      "name": "Quark",
+      "number": " ",
+      "symbol": "q"
+    },
+    {
+      "name": "R",
+      "number": " ",
+      "symbol": "Roentgen"
+    },
+    {
+      "name": "T",
+      "number": " ",
+      "symbol": "Tau"
+    },
+    {
+      "name": "X",
+      "number": " ",
+      "symbol": "X Boson"
+    },
+    {
+      "name": "Z",
+      "number": " ",
+      "symbol": "Z Boson"
     }
   ]
 }
