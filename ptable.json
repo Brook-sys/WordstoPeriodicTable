@@ -596,7 +596,7 @@
       "symbol": "Uue"
     },
     {
-      "name": "Alpha PArticle",
+      "name": "Alpha Particle",
       "number": " ",
       "symbol": "A"
     },
@@ -631,24 +631,24 @@
       "symbol": "q"
     },
     {
-      "name": "R",
+      "name": "Roentgen",
       "number": " ",
-      "symbol": "Roentgen"
+      "symbol": "R"
     },
     {
-      "name": "T",
+      "name": "Tau",
       "number": " ",
-      "symbol": "Tau"
+      "symbol": "T"
     },
     {
-      "name": "X",
+      "name": "X Boson",
       "number": " ",
-      "symbol": "X Boson"
+      "symbol": "X"
     },
     {
-      "name": "Z",
+      "name": "Z Boson",
       "number": " ",
-      "symbol": "Z Boson"
+      "symbol": "Z"
     }
   ]
 }

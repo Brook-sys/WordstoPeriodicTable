@@ -102,16 +102,15 @@ function transform(){
     request.send();
 }
 function proc(obj, texto){
-    var pego = false;
     for(var txt in obj){
-        if(obj[txt].symbol.toUpperCase == texto.toUpperCase){
+        var i = obj[txt].symbol
+        i = i[0].toUpperCase() + i.substr(1).toLowerCase();
+        if(i == texto){
             return obj[txt];
-        }
-        if (obj[txt] == obj[obj.length - 1]){
-            return false;
         }
 
     }
+    return false;
 }
 function verif(e, t){
     try {
